@@ -6,6 +6,7 @@ Summary:        Tool for enabling and disabling wireless devices
 Url:            http://wireless.kernel.org/download/rfkill/
 Group:          Productivity/Networking/Other
 Source:         %{name}-%{version}.tar.bz2
+Source1001: 	rfkill.manifest
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
@@ -15,6 +16,7 @@ WLAN, Bluetooth and mobile broadband.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 make %{?_smp_mflags}
@@ -26,6 +28,7 @@ install -Dm644 rfkill.8 %{buildroot}%{_mandir}/man8/rfkill.8
 %docs_package
 
 %files
+%manifest %{name}.manifest
 %defattr(-,root,root)
 %doc COPYING
 %{_sbindir}/rfkill
