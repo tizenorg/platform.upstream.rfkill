@@ -1,0 +1,8 @@
+Change-Id: I8fdd6c46986b07bc8c354f7f8e0af8b233eb4055
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:38:49 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4965
+Project: platform/upstream/rfkill
+Branch: refs/heads/tizen
