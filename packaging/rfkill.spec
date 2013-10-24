@@ -4,7 +4,7 @@ Release:        0
 License:        ISC
 Summary:        Tool for enabling and disabling wireless devices
 Url:            http://wireless.kernel.org/download/rfkill/
-Group:          Productivity/Networking/Other
+Group:          Network & Connectivity/Wireless
 Source:         %{name}-%{version}.tar.bz2
 Source1001: 	rfkill.manifest
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -30,7 +30,7 @@ install -Dm644 rfkill.8 %{buildroot}%{_mandir}/man8/rfkill.8
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root)
-%doc COPYING
+%license COPYING
 %{_sbindir}/rfkill
 
 %changelog

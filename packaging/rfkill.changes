@@ -1,0 +1,6 @@
+* Thu Oct 24 2013 Aleksander Zdyb <a.zdyb@partner.samsung.com> accepted/tizen/20130913.024411@65fea0a
+- Changed group and added license macro
+- resetting manifest requested domain to floor
+- add packaging
+- Imported Upstream version 0.4
+
