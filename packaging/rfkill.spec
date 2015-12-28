@@ -1,7 +1,7 @@
 Name:           rfkill
 Version:        0.4
 Release:        0
-License:        ISC
+License:        MIT
 Summary:        Tool for enabling and disabling wireless devices
 Url:            http://wireless.kernel.org/download/rfkill/
 Group:          Network & Connectivity/Wireless
